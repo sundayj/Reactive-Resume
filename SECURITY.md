@@ -4,9 +4,10 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 2.0.0   | :white_check_mark: |
-| 1.0.0   | :x:                |
+| 3.x.x   | :white_check_mark: |
+| 2.x.x   | :x:                |
+| 1.x.x   | :x:                |
 
 ## Reporting a Vulnerability
 
-Use the [GitHub Issues](https://github.com/AmruthPillai/Reactive-Resume/issues) tab to report a vulnerability
+Create an issue on GitHub or send me an email through the contact form on my website at https://amruthpillai.com/

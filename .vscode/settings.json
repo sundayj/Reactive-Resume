@@ -1,11 +1,22 @@
 {
-  "files.associations": {
-    "*.js": "javascriptreact"
-  },
+  "css.validate": false,
+  "scss.validate": false,
+  "editor.wordWrap": "on",
+  "npm.packageManager": "pnpm",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll.eslint": true
   },
-  "i18n-ally.localesPaths": ["src/i18n/locales"],
-  "i18n-ally.keystyle": "nested",
-  "css.validate": false
+  "eslint.workingDirectories": [
+    "schema",
+    "client",
+    "server"
+  ],
+  "conventionalCommits.scopes": [
+    "client",
+    "server",
+    "docker",
+    "dependencies"
+  ]
 }
